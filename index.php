@@ -97,7 +97,7 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
 </style>
 </head>
 <body>
-<center>[ <a href="a/">a</a> / <a href="m/">m</a> / <a href="n/">n</a> / <a href="h/">h</a> ] [ <a href="rules/">rules</a> / <a href="about/">about</a> / <a href="">home</a>]</center>
+	<center>[ <a href="template/">template</a></center> ] [ <a href=""> home</a> ] </center>
 <!-- if you have other boards, you need to replace them above!!! -->  
 <center><h3><?php echo $mypagetitle; ?> - <?php echo $subtitle; ?> </h3></center>
 <small><i><center><?php echo $version; ?></small></i></center>
