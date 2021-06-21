@@ -2,8 +2,7 @@
 Your daily Textboard/Imageboard. Written in PHP and HTML and it can be used without Database! Actually, it's a continued version of the old Bazuchan.
 
 # Features
-- A decent Textboard
-- A glitchy Imageboard
+- A decent Imageboard/Textboard
 - Some cool preset Banners
 - A not working reset.php
 - A life demo @ http://chan.abulafia.space
@@ -27,7 +26,7 @@ Your daily Textboard/Imageboard. Written in PHP and HTML and it can be used with
 
 # To-Do / Contribution
 - Get the `reset.php` somewhat working
-- Get somebody who can make the board resize the images automaticly (i cant php lulw)
+- make image resize better
 - Add the `about.png` banner in `/banners`
 - Send help
 
