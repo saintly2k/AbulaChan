@@ -101,9 +101,9 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
 <center><?php echo $pageheader; ?></center>
 <center><h3><?php echo $mypagetitle; ?> - <?php echo $subtitle; ?> </h3></center>
 <small><i><center><?php echo $version; ?></small></i></center>
-<!-- pls don't remove the ad :( saintly and bazu will be really sad... -->
+<!-- pls don't remove the ad :( saintly will be really sad... -->
 <hr>
-<center><img src="../banners/hentai.jpg" height="120px" width="300px"></center>
+<center><img src="../banners/anime.jpg" height="120px" width="300px"></center>
 <hr>
 
 
@@ -113,9 +113,8 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
         <fieldset>
                 <label for="name">Name:</label>
                 <input type="text" class="textfield" name="name" id="name" value="Anon-chan" size="20" /><br />
-                <!-- <label for="email">Image (URL):</label> -->
-                <!-- <input type="text" class="textfield" name="email" id="email" size="20" /><br /> -->
-                <!-- uncomment the above and set $enable_guest_images = true in config.php for buggy images -->
+                <label for="email">Image (URL):</label>
+                <input type="text" class="textfield" name="email" id="email" size="20" /><br />
                 <label for="message">Your Message:</label><textarea name="message" id="message" rows="4" cols="30"></textarea><br />
                 <label for="spam">Type '<b><?php echo $antispam_word; ?></b>':</label>
                 <input type="text" name="spam" id="spam" size="5" value="" />

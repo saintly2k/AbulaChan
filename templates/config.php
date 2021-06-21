@@ -1,27 +1,27 @@
 <?php
 
-//SaintBoard - The worst Textboard/Imageboard out there
+//AbulaChan - The worst Textboard/Imageboard out there
 
 //header
 
 //you need to change these thingies!
 
-$mypagetitle = 'AbulaBoard';
+$mypagetitle = 'YourChan';
 // what's the name of the board?
-$subtitle = '/H/entai';
+$subtitle = 'A very cool subtitle!';
 //your subtitle lol
-$antispam_word = 'hanime';
+$antispam_word = 'nospam';
 //eg: "nospam", used to prevent spam
 $mysecretword = 'qwertz';
 //this is just used for some crayshit. just remember it.
 
 //image functions (yes, but it is GLITCHY! i recommend false)
 
-$enable_guest_images = false; //can people post using images?
-//true or false (false is recomendet & default)
+$enable_guest_images = true; //can people post using images?
+//true or false (still very glithcy, sorry.im working on it)
 $default_guest_image = "http://abulafia.space/haha/43E34958-3166-42D9-BCB1-F4EB7D20089A.jpeg"; //this pic is shown if a user doesn't enter a url to a pic
-$guest_image_size = 40;
-// doesn't work yet, that's why i recommend turning this function off
+$guest_image_size = "270px";
+// just change the amount of pixel, these are width of the picture
 
 //other customization
 
