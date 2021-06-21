@@ -6,6 +6,7 @@ Your daily Textboard/Imageboard. Written in PHP and HTML and it can be used with
 - Some cool preset Banners
 - A not working reset.php
 - A life demo @ http://chan.abulafia.space
+- For the exact code shown here @ http://chan.abulafia.space/GITHUB
 - idk what more?
 
 # Installation
