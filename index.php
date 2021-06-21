@@ -97,11 +97,10 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
 </style>
 </head>
 <body>
-	<center>[ <a href="template/">template</a></center> ] [ <a href=""> home</a> ] </center>
-<!-- if you have other boards, you need to replace them above!!! -->  
+<center>[ <a href="templates">/t/</a> ] [ <a href="#">home</a> ]</center>
 <center><h3><?php echo $mypagetitle; ?> - <?php echo $subtitle; ?> </h3></center>
 <small><i><center><?php echo $version; ?></small></i></center>
-<!-- pls don't remove the ad :( saintly and bazu will be really sad... -->
+<!-- pls don't remove the ad :( saintly will be really sad... -->
 <hr>
 <center><img src="banners/home.jpg" height="120px" width="300px"></img></center>
 <hr>
@@ -114,15 +113,17 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
         <fieldset>
                 <label for="name">Boards:</label>
 		<small>
-                [<a href="a/">a</a> / <a href="m/">m</a> / <a href="n/">n</a> / <a href="h/">h</a> ] [<a href="rules/">rules </a> / <a href="about">about</a>]
+                [ <a href="templates">/T/emplates</a> ] - [ No categorys yet. ]
 		</small>
-    <!-- if you have other boards, you need to replace them!!! -->
 		<br>
+                <!-- <label for="email">Image (URL):</label> -->
+                <!-- <input type="text" class="textfield" name="email" id="email" size="20" /><br /> -->
                 <label for="message">News:</label>
 		<small>
-		[30.05.2021] Yay, I made it!<br>
+		[30.05.2021] Your first news!<br>
 		<a href="news/">>>View older News...</a>
 		</small>
+                <!-- <label for="spam"></b>':</label> -->
 		<br>
 		<br>
 		<img src="banners/thumbs.gif" width="80%">

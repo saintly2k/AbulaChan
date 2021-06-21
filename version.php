@@ -1,5 +1,5 @@
 <?php
 
-$version = '(Running on AbulaBoard v0.1 <a href="https://github.com/saintly2k/AbulaBoard" target="_BLANK">Download</a>)';
+$version = '(Running on AbulaChan v0.2 <a href="https://github.com/saintly2k/AbulaChan" target="_BLANK">Download</a>)';
 
 ?>
