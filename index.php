@@ -95,6 +95,13 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
         p.gbmessage{padding:5px;margin:15px;}
 -->
 </style>
+	
+	<meta charset="UTF-8">
+  <meta name="description" content="Your Daily Imageboard written in PHP and HTML! - AbulaChan">
+  <meta name="keywords" content="Imageboard, PHP, HTML, 4chan, Chan, AbulaChan, AbulaBoard">
+  <meta name="author" content="$aintly2k">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 </head>
 <body>
 <center>[ <a href="templates">/t/</a> ] [ <a href="#">home</a> ]</center>
