@@ -42,7 +42,7 @@ $spam = strip_tags(str_replace("'",'',$_POST['spam']));
 if($enable_guest_images&&$default_guest_image){
         if($email)$grav_url = $email;
         else $grav_url = $default_guest_image;
-        if($grav_url)$gravatar = "<img height=\"$guest_image_size\" src=\"$grav_url\" />";
+        if($grav_url)$gravatar = "<a href=\"$grav_url\" target='_blank'><img height=\"$guest_image_size\" src=\"$grav_url\" /></a>";
         else $gravatar = "";
 }
 else $gravatar = "";
