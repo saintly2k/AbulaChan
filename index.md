@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to AbulaChan's GitHub page!
 
-You can use the [editor on GitHub](https://github.com/saintly2k/AbulaChan/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Hey and welcome, glad to see you here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Here are some informations about AbulaChan!
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Features
 
 ```markdown
-Syntax highlighted code block
+Image posting & auto-resizing!
+- No Data is stored locally, the images aren't uploaded, they are being entered by an URL and this is getting displayed on the page
 
-# Header 1
-## Header 2
-### Header 3
+Customization!
+- You can change the theme easily, just adjust the CSS in the "index.php" file at the head and you're done!
+- Change the Title & Subline easily in the "config.php"!
 
-- Bulleted
-- List
+Easy creation of new boards!
+- Just copy the files from the "template" directory in a new directory, change the "config.php" and "header.php" and you're done!
 
-1. Numbered
-2. List
+MySQL? MySQLite? No, messages are stored in hardcode!
+- Comments are stored in hardcode, no DataBase needed!
+- A comment is not good? Remove it in the "gbcontentfile.php" which shows up as soon a comment is written!
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+R.I.P BazuChan...
+- This imageboard is based on BazuChan.com (website is down). It was abondoned a long time ago but I found the source and started remaking it!
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saintly2k/AbulaChan/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
