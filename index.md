@@ -6,7 +6,6 @@ Here are some informations about AbulaChan!
 
 ### Features
 
-```markdown
 Image posting & auto-resizing!
 - No Data is stored locally, the images aren't uploaded, they are being entered by an URL and this is getting displayed on the page
 
@@ -23,6 +22,5 @@ MySQL? MySQLite? No, messages are stored in hardcode!
 
 R.I.P BazuChan...
 - This imageboard is based on BazuChan.com (website is down). It was abondoned a long time ago but I found the source and started remaking it!
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
