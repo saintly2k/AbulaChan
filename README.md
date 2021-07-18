@@ -1,3 +1,6 @@
+# Important Announcement
+Due to vacation, the webserver will be down. You won't be able to reach abulafia.space. Will be around end of July back again if nothing happens while I'm in Turkey.
+
 # AbulaBoard
 Your daily Textboard/Imageboard. Written in PHP and HTML and it can be used without Database! Actually, it's a continued version of the old Bazuchan.
 
