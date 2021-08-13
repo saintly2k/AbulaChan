@@ -1,8 +1,8 @@
 # Important Announcement
-Due to vacation, the webserver will be down. You won't be able to reach abulafia.space. Will be around end of July back again if nothing happens while I'm in Turkey.
+I'm searching for someone to help me at this project making something like a theme selector or so, also I want to make it that you can upload the images instead of just linking to them, if anyone could help me with that, I would be very grateful! But nothing more at the moment...
 
 # AbulaBoard
-Your daily Textboard/Imageboard. Written in PHP and HTML and it can be used without Database! Actually, it's a continued version of the old Bazuchan.
+Your daily Textboard/Imageboard. Written in PHP and HTML and it can be used without Database (it's flatfile)! Actually, it's a continued version of the old Bazuchan.
 
 # Features
 - A decent Imageboard/Textboard
