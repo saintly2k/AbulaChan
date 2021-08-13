@@ -29,9 +29,9 @@ Your daily Textboard/Imageboard. Written in PHP and HTML and it can be used with
 5. Done kekw
 
 # To-Do / Contribution
--[] Get the `reset.php` somewhat working... NOT! YOU CAN DO THAT MANUALLY BY DELETING `gbcontentfile.php`! I'm too lazy...
--[] Make image resize better??? Maybe...
--[] Make smth like "Change Theme" in config.php and styles.css, ya know?
--[] Send help
+- []  Get the `reset.php` somewhat working... NOT! YOU CAN DO THAT MANUALLY BY DELETING `gbcontentfile.php`! I'm too lazy...
+- []  Make image resize better??? Maybe...
+- []  Make smth like "Change Theme" in config.php and styles.css, ya know?
+- []  Send help
 
 xd pls halp me making this board better if you can, make a pull request xdddd
