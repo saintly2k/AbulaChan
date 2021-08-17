@@ -6,6 +6,7 @@
 require_once('config.php');
 require_once('../stuff/header.php');
 require_once('../stuff/version.php');
+require_once('news.php');
 $page = 0;
 $page = (int)$_GET['p']; 
 
@@ -101,7 +102,7 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
 <small><i><center><?php echo $version; ?></small></i></center>
 <!-- pls don't remove the ad :( saintly will be really sad... -->
 <hr>
-<center><img src="../banners/anime.jpg" height="120px" width="300px"></center>
+<center><img src="../banners/news.jpg" height="120px" width="300px"></center>
 <hr>
 
 
@@ -109,16 +110,8 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
 
 <center><form method="post" action="gb-exec.php">
         <fieldset>
-                <label for="name">Name:</label>
-                <input type="text" class="textfield" name="name" id="name" value="Anon-chan" size="20" /><br />
-                <label for="email">Image (URL):</label>
-                <input type="text" class="textfield" name="email" id="email" size="20" /><br />
-                <label for="message">Your Message:</label><textarea name="message" id="message" rows="4" cols="30"></textarea><br />
-                <label for="spam">Type '<b><?php echo $antispam_word; ?></b>':</label>
-                <input type="text" name="spam" id="spam" size="5" value="" />
-                <input type="hidden" name="i" value="<?php echo (int)$_GET['i']; ?>" />
-                <input type="submit" name="submit" value="Commit to Eternity" />
-                
+                <h4>News</h4>
+		<?php echo $news; ?>
         </fieldset>
 </form></center>
 
@@ -167,4 +160,3 @@ $sovim = array(
 
 </body>
 </html>
-
