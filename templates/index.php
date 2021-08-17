@@ -4,8 +4,8 @@
 */
 
 require_once('config.php');
-require_once('../header.php');
-require_once('../version.php');
+require_once('../stuff/header.php');
+require_once('../stuff/version.php');
 $page = 0;
 $page = (int)$_GET['p']; 
 
@@ -82,20 +82,11 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
 
 <title><?php echo $mypagetitle; ?> - <?php echo $subtitle; ?></title>
 
+<link rel="stylesheet" href="<?php echo $theme; ?>" type="text/css">
+
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="STYLESHEET" type="text/css" href="http://www.w3.org/StyleSheets/Core/parser.css?family=<?php echo (int)$_GET['i']; ?>&amp;doc=XML" />
-<style type="text/css">
-<!--
-        form {width:470px; padding:10px; border:1px solid #000;}
-        fieldset {border:0px;}
-        form label {clear:left; display:block; float:left; width:130px; text-align:right; padding-right:10px; color:#888; margin-bottom:0.5em;font-size:70%;}
-        form input {border:1px solid #000; padding-left:0.5em; margin-bottom:0.6em;}
-        div.gbsign{border:1px solid black;width:50%;margin:10px;padding:10px;}
-        .gbname{font-weight:bold;color:green;}
-        .gbdate{font-size:70%;margin-left:30px;}
-        p.gbmessage{padding:5px;margin:15px;}
--->
-</style>
+<?php echo $page_style; ?>
         
         <meta charset="UTF-8">
   <meta name="description" content="Your Daily Imageboard written in PHP and HTML! - AbulaChan">
@@ -176,3 +167,4 @@ $sovim = array(
 
 </body>
 </html>
+
