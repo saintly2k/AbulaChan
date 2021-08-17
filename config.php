@@ -16,13 +16,16 @@ $mysecretword = 'qwertz';
 //image functions (yes, but it is GLITCHY! i recommend false)
 
 $enable_guest_images = true; //can people post using images?
-//true or false (false is recomendet & default)
+//true or false 
 $default_guest_image = "http://abulafia.space/haha/43E34958-3166-42D9-BCB1-F4EB7D20089A.jpeg"; //this pic is shown if a user doesn't enter a url to a pic
 $guest_image_size = "270px";
 // is glitchy, im working on it
 
 //other customization
 
+$theme = 'themes/futurama.css';
+//The stylesheet. To change, replace the "bazuchan.css" with any other CSS file in the /themes/ folder!
+//available: 'bazuchan.css', 'futurama.css', 'abulachan.css', 'cyberpwn.css',
 $page_comments = 10;
 // number of texts per page (TEN IS RECOMENDED)
 $time_zone = 0;

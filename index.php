@@ -4,7 +4,9 @@
 */
 
 require_once('config.php');
-require_once('version.php');
+require_once('stuff/version.php');
+require_once('stuff/index_header.php');
+require_once('news/news.php');
 $page = 0;
 $page = (int)$_GET['p']; 
 
@@ -81,21 +83,12 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
 
 <title><?php echo $mypagetitle; ?> - <?php echo $subtitle; ?></title>
 
+<link rel="stylesheet" href="<?php echo $theme; ?>" type="text/css">
+
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="STYLESHEET" type="text/css" href="http://www.w3.org/StyleSheets/Core/parser.css?family=<?php echo (int)$_GET['i']; ?>&amp;doc=XML" />
-<style type="text/css">
-<!--
-        form {width:470px; padding:10px; border:1px solid #000;}
-        fieldset {border:0px;}
-        form label {clear:left; display:block; float:left; width:130px; text-align:right; padding-right:10px; color:#888; margin-bottom:0.5em;font-size:70%;}
-        form input {border:1px solid #000; padding-left:0.5em; margin-bottom:0.6em;}
-        div.gbsign{border:1px solid black;width:50%;margin:10px;padding:10px;}
-        .gbname{font-weight:bold;color:green;}
-        .gbdate{font-size:70%;margin-left:30px;}
-        p.gbmessage{padding:5px;margin:15px;}
--->
-</style>
-	
+<?php echo $page_style; ?>
+
 	<meta charset="UTF-8">
   <meta name="description" content="Your Daily Imageboard written in PHP and HTML! - AbulaChan">
   <meta name="keywords" content="Imageboard, PHP, HTML, 4chan, Chan, AbulaChan, AbulaBoard">
@@ -104,7 +97,8 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
 	
 </head>
 <body>
-<center>[ <a href="templates">/t/</a> ] [ <a href="#">home</a> ]</center>
+<div id="content">
+<center><?php echo $index_header; ?></center>
 <center><h3><?php echo $mypagetitle; ?> - <?php echo $subtitle; ?> </h3></center>
 <small><i><center><?php echo $version; ?></small></i></center>
 <!-- pls don't remove the ad :( saintly will be really sad... -->
@@ -120,7 +114,7 @@ if($block!=''&&$hash_ip == md5($mysecretword.$block)){
         <fieldset>
                 <label for="name">Boards:</label>
 		<small>
-                [ <a href="templates">/T/emplates</a> ] - [ No categorys yet. ]
+                <?php echo $index_boards; ?>
 		</small>
 		<br>
                 <!-- <label for="email">Image (URL):</label> -->
@@ -180,6 +174,7 @@ $sovim = array(
 }
 ?>
 
-
+</div>
 </body>
 </html>
+
