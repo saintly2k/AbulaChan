@@ -15,16 +15,17 @@ Your daily Textboard/Imageboard. Written in PHP and HTML and it can be used with
 # Installation
 1. Download the stuff & unzip it.
 2. Setup `config.php` in the main directory, you need to change these: `$mypagetitle`, `$subtitle`, `$antispam_word` and `$mysecretword`.
-3. For images you need to set `$enable_guest_images` to true (false is default and recomendet since it doesn't work properly)
-4. Setup `index.php` in the main directory, you need to change these: at the top in the `<center>` tags your boards, in the `<fielsdset>` tag your boards and your news (currently in work).
-5. Setup `header.php`, you need to change these: add your boards in there with HTML markup, example is already written there.
-6. MAKE SURE YOU HAVE CHMOD 777 ON THE FOLDER!
-7. Setup boards (explanation below)
+3. Images (`$enable_guest_images`) are set to true by default, you can disable them by setting it to `false`
+4. (Optional) If you have images enabled, you can change the size of them by changing the `$guest_image_size` to something else. (MAKE SURE YOU ALWAYS GIVE THE SIZE IN PIXEL, OR ELSE IT WON'T WORK!)
+5. Setup `index.php` in the main directory, you need to change these: at the top in the `<center>` tags your boards, in the `<fieldset>` tag your boards and your news (currently in work).
+6. Setup `header.php`, you need to change these: add your boards in there with HTML markup, example is already written there.
+7. MAKE SURE YOU HAVE CHMOD 777 ON THE FOLDER!
+8. Setup boards (explanation below)
 
 # Adding Boards
 1. Copy the files out of the `template` directory into the folder(e.g: /a/ for anime).
-2. Edit `index.php` and `config.php` to your likings.
-3. Edit `header.php` in the folder above and add a link to it.
+2. Edit `index.php` and `config.php` to your likings (as mentioned above).
+3. Edit `header.php` in the folder above and add a links to it.
 4. Edit the `index.php` in the same directory as `header.php` and link the board there.
 5. Done kekw
 
