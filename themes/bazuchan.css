@@ -1,0 +1,51 @@
+/* Bazuchan.css - The standart Theme for the AbulaBoard, in memories of the original Bazuchan... */
+
+form {
+  width:470px;
+  padding:10px;
+  border:1px solid #000;
+}
+
+fieldset {
+  border:0px;
+}
+
+form label {
+  clear:left; 
+  display:block; 
+  float:left; 
+  width:130px; 
+  text-align:right; 
+  padding-right:10px; 
+  color:#888; 
+  margin-bottom:0.5em;
+  font-size:70%;
+}
+ 
+form input {
+  border:1px solid #000; 
+  padding-left:0.5em; 
+  margin-bottom:0.6em;
+}
+ 
+div.gbsign {
+  border:1px solid black;
+  width:50%;
+  margin:10px;
+  padding:10px;
+}
+
+.gbname {
+  font-weight:bold;
+  color:green;
+}
+
+.gbdate {
+  font-size:70%;
+  margin-left:30px;
+}
+
+p.gbmessage {
+  padding:5px;
+  margin:15px;
+}
